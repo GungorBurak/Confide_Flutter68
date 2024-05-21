@@ -1,0 +1,53 @@
+name: confide_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  table_calendar: ^3.0.0
+  http: ^0.13.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/confide_logo.png
+    - assets/welcome-01.png
+    - assets/unity-01.png
+    - assets/hello.png
+    - assets/destekcim.png
+    - assets/ogrenme.png
+    - assets/gunluk.png
+    - assets/acil.png
+    - assets/etkinlik.png
+    - assets/haklar.png
+    - assets/sexual_health.png
+    - assets/reproductive_health.png
+    - assets/gender_based_violence.png
+    - assets/emergency.png
+    - assets/activities.png
+    - assets/saglık.png
+    - assets/temelilkyardim.png
+    - assets/saglikliyasam.png
+
+
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: fonts/Montserrat-Bold.ttf
+          weight: 700
